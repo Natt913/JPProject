@@ -28,4 +28,5 @@ public interface Item {
 
   //A method getSerialNumber that would return an int
   public int getSerialNumber();
+  
 }
