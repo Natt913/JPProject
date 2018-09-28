@@ -1,6 +1,7 @@
 //Nathalie Crespo
 //Testing the Product class
 //September 28, 2018
+
 public class Main {
 
   public static void  main(String[] args){
