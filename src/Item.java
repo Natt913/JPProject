@@ -1,5 +1,7 @@
 //Nathalie Crespo
-//This file is an interface,
+//This file is an interface with many parent methods meant to be used for the Product class.
+//Many of the comments were used from the Oracle JP Project.
+//September 28, 2018
 
 //Required in order to use Date class
 import java.util.Date;
@@ -9,8 +11,8 @@ import java.util.Date;
 
 public interface Item {
 
-  //A constant called manufacturer that would be set to “OracleProduction”
-  final String manucaturer = "OraclProduction";
+  //A constant called manufacturer that would be set to “OraclProduction”
+  final String manufacturer = "OraclProduction";
 
   //A method setProductionNumber that would have one integer parameter
   public void setProductionNumber(int productionNumber);
@@ -26,4 +28,5 @@ public interface Item {
 
   //A method getSerialNumber that would return an int
   public int getSerialNumber();
+
 }

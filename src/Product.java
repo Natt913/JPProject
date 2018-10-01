@@ -1,4 +1,6 @@
 //Nathalie Crespo
+//Many of the notes were used from the JP Project file
+//Septemeber 28, 2018
 
 //Required in order to use Date class
 import java.util.Date;
@@ -24,9 +26,9 @@ public abstract class Product implements Item {
     manufacturedOn = new Date();
   }
 
-
+  //Completing all the methods from the Item interface
   public void setProductionNumber(int productionNumber){
-  serialNumber = productionNumber;
+    serialNumber = productionNumber;
   }
 
   public void setName(String name){
@@ -46,7 +48,7 @@ public abstract class Product implements Item {
   }
 
   public String toString(){
-    return "Manufacturer      : " + manufacturer + "\n"
+    return "Manufacturer      : " + Item.manufacturer + "\n"
         +  "Serial Number     : " + serialNumber + "\n"
         +  "Date              : " + manufacturedOn + "\n"
         +  "Name              : " + name + "\n";
