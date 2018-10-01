@@ -11,7 +11,7 @@ public enum ItemType {
   VIDEO_MOBILE("VM");
 
   //Required for enum to have a value
-  private final String code;
+  public final String code;
 
   ItemType(String code) {
     this.code = code;

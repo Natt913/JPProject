@@ -9,7 +9,7 @@ public abstract class Product implements Item {
 
   //Instance variables
   private int serialNumber;
-  private String manufacturer;
+  private String manufacturer = Item.manufacturer;
   private Date manufacturedOn;
   private String name;
 
@@ -28,7 +28,8 @@ public abstract class Product implements Item {
 
   //Completing all the methods from the Item interface
   public void setProductionNumber(int productionNumber){
-    serialNumber = productionNumber;
+    currentProductionNumber = productionNumber;
+    //serialNumber = productionNumber;
   }
 
   public void setName(String name){
@@ -48,7 +49,7 @@ public abstract class Product implements Item {
   }
 
   public String toString(){
-    return "Manufacturer      : " + Item.manufacturer + "\n"
+    return "Manufacturer      : " + manufacturer + "\n"
         +  "Serial Number     : " + serialNumber + "\n"
         +  "Date              : " + manufacturedOn + "\n"
         +  "Name              : " + name + "\n";
