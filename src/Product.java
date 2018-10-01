@@ -13,42 +13,53 @@ public abstract class Product implements Item {
   private Date manufacturedOn;
   private String name;
 
-  //Specified to be a class variable, therefore it will only be used in this class
+  //Specified to be a class variable, therefore it will only be used in this class.
   static int currentProductionNumber;
 
-  //Add a constructor that will take in the name of the product and set this to the field variable name.
-  //Will also assign a serial number from the currentProductionNumber.
-  //The currentProductionNumber is incremented in readiness for the next instance.
-  //Set manufacturedOn as the current date and time.
-  public Product(String n){
+
+  /**
+   * A constructor that will take in the name of the product.
+   * And set this to the field variable name.
+   * Will also assign a serial number from the currentProductionNumber.
+   * The currentProductionNumber is incremented in readiness for the next instance.
+   * Set manufacturedOn as the current date and time.
+   * @param n It takes a String as the name for the product.
+   */
+
+  public Product(String n) {
     name = n;
     serialNumber = currentProductionNumber++;
     manufacturedOn = new Date();
   }
 
   //Completing all the methods from the Item interface
-  public void setProductionNumber(int productionNumber){
+  public void setProductionNumber(int productionNumber) {
     currentProductionNumber = productionNumber;
     //serialNumber = productionNumber;
   }
 
-  public void setName(String name){
+  public void setName(String name) {
     this.name = name;
   }
 
-  public String getName(){
+  public String getName() {
     return name;
   }
 
-  public Date getManufacturerDate(){
+  public Date getManufacturerDate() {
     return manufacturedOn;
   }
 
-  public int getSerialNumber(){
+  public int getSerialNumber() {
     return serialNumber;
   }
 
-  public String toString(){
+  /**
+   * Method to return a template provided by Oracle.
+   * Adds non-sample data.
+   * @return The template that is required to use.
+   */
+  public String toString() {
     return "Manufacturer      : " + manufacturer + "\n"
         +  "Serial Number     : " + serialNumber + "\n"
         +  "Date              : " + manufacturedOn + "\n"
