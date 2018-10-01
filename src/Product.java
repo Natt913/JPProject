@@ -14,7 +14,7 @@ public abstract class Product implements Item {
   private String name;
 
   //Specified to be a class variable, therefore it will only be used in this class.
-  static int currentProductionNumber;
+  private static int currentProductionNumber = 1;
 
 
   /**
