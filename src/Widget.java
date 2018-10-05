@@ -4,13 +4,22 @@
 
 public class Widget extends Product {
 
+  private String name;
+
+  /**
+   * Default constructor for the Widget class.
+   * Using the default constructor from the parent class.
+   */
+  public Widget() {
+    super();
+  }
+
   /**
    * Constructor for the Widget class.
-   * Using the constructor from the parent class with the parameter as 'poop'.
+   * @param name Using name as parameter to also be passed into parent constructor.
    */
-
-  public Widget() {
-    super("poop");
+  public Widget(String name) {
+    super(name);
   }
 
 }

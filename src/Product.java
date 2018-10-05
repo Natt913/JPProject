@@ -16,6 +16,14 @@ public abstract class Product implements Item {
   //Specified to be a class variable, therefore it will only be used in this class.
   private static int currentProductionNumber = 1;
 
+  /**
+   * Default constructor for the Product class.
+   */
+  public Product() {
+    name = "Unknown";
+    serialNumber = currentProductionNumber++;
+    manufacturedOn = new Date();
+  }
 
   /**
    * A constructor that will take in the name of the product.
@@ -81,10 +89,10 @@ public abstract class Product implements Item {
    * @return The template that is required to use.
    */
   public String toString() {
-    return "Manufacturer      : " + manufacturer + "\n"
+    return "\n" + "Manufacturer      : " + manufacturer + "\n"
         +  "Serial Number     : " + serialNumber + "\n"
         +  "Date              : " + manufacturedOn + "\n"
-        +  "Name              : " + name + "\n";
+        +  "Name              : " + name ;
   }
 
 }
