@@ -33,23 +33,44 @@ public abstract class Product implements Item {
   }
 
   //Completing all the methods from the Item interface
+
+  /**
+   * Set function to set the serial number equal to the production number.
+   * @param productionNumber It takes an integer to set as the production number.
+   */
   public void setProductionNumber(int productionNumber) {
     currentProductionNumber = productionNumber;
     //serialNumber = productionNumber;
   }
 
+  /**
+   * Set function to set the name of the product.
+   * @param name A string parameter to take the name of the product.
+   */
   public void setName(String name) {
     this.name = name;
   }
 
+  /**
+   * Get function to return the name of the product.
+   * @return Returns the set name of the product.
+   */
   public String getName() {
     return name;
   }
 
+  /**
+   *Get function to return the date the product was manufactured.
+   * @return Returns the date the product was manufactured on
+   */
   public Date getManufacturerDate() {
     return manufacturedOn;
   }
 
+  /**
+   * Get function to return the serial number.
+   * @return Returns the serial number.
+   */
   public int getSerialNumber() {
     return serialNumber;
   }
