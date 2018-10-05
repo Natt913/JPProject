@@ -10,7 +10,7 @@ public class AudioPlayer extends Product implements MultimediaControl {
   public AudioPlayer() {
     super();
     mediaType = ItemType.AUDIO_MOBILE;
-    audioSpecification = "Unknown";
+    audioSpecification = "Generic";
   }
 
   /**

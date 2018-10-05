@@ -20,7 +20,7 @@ public abstract class Product implements Item {
    * Default constructor for the Product class.
    */
   public Product() {
-    name = "Unknown";
+    name = "Generic";
     serialNumber = currentProductionNumber++;
     manufacturedOn = new Date();
   }
