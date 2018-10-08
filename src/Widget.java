@@ -1,4 +1,3 @@
-//Nathalie Crespo
 //Just created this as a little test.
 //September 28, 2018
 

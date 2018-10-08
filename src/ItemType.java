@@ -1,4 +1,3 @@
-//Nathalie Crespo
 //Enum, data type with set constants and values
 //ItemType AUDIO = new ItemType("AU");
 //September 28, 2018

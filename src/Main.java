@@ -1,4 +1,3 @@
-//Nathalie Crespo
 //Testing the Product class
 //September 28, 2018
 
@@ -18,11 +17,11 @@ public class Main {
     Widget w2 = new Widget("Poop");
     System.out.println(w2.toString());
 
-    AudioPlayer aP1 = new AudioPlayer();
-    System.out.println(aP1.toString());
+    AudioPlayer ap1 = new AudioPlayer();
+    System.out.println(ap1.toString());
 
-    AudioPlayer aP2 = new AudioPlayer("Ipod","Mp3");
-    System.out.println(aP2.toString());
+    AudioPlayer ap2 = new AudioPlayer("Ipod","Mp3");
+    System.out.println(ap2.toString());
   }
 
 }
