@@ -20,7 +20,7 @@ public class Main {
     AudioPlayer ap1 = new AudioPlayer();
     System.out.println(ap1);
 
-    AudioPlayer ap2 = new AudioPlayer("Ipod","Mp3");
+    AudioPlayer ap2 = new AudioPlayer("Walkman","WAV");
     System.out.println(ap2);
 
     Screen s1 = new Screen("600x400", 40, 22);
@@ -28,6 +28,8 @@ public class Main {
 
     Screen s2 = new Screen();
     System.out.println(s2);
+
+    AudioPlayerDriver.testAudioPlayer();
   }
 
 }

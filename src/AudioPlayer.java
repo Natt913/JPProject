@@ -9,7 +9,7 @@ public class AudioPlayer extends Product implements MultimediaControl {
    */
   public AudioPlayer() {
     super();
-    mediaType = ItemType.AUDIO_MOBILE;
+    mediaType = ItemType.AUDIO;
     audioSpecification = "Generic";
   }
 
@@ -20,7 +20,7 @@ public class AudioPlayer extends Product implements MultimediaControl {
    */
   public AudioPlayer(String name, String audioSpecification) {
     super(name);
-    mediaType = ItemType.AUDIO_MOBILE;
+    mediaType = ItemType.AUDIO;
     this.audioSpecification = audioSpecification;
   }
 
@@ -42,14 +42,14 @@ public class AudioPlayer extends Product implements MultimediaControl {
    * Method to print that its playing the previous media.
    */
   public void previous() {
-    System.out.println("Previous song");
+    System.out.println("Previous");
   }
 
   /**
    * Method to print that its playing the next media.
    */
   public void next() {
-    System.out.println("Next song");
+    System.out.println("Next");
   }
 
   /**
