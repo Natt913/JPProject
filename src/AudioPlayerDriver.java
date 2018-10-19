@@ -1,8 +1,5 @@
 public class AudioPlayerDriver {
 
-  AudioPlayer ap1;
-  AudioPlayer ap2;
-
   public static void testAudioPlayer() {
 
     AudioPlayer ap1 = new AudioPlayer("iPod Mini", "MP3");
