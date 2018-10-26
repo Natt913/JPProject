@@ -1,5 +1,8 @@
 public class ScreenDriver {
 
+  /**
+   * Method to test functionality of Sceen class and its methods.
+   */
   public static void testScreen() {
 
     Screen screen1 = new Screen();

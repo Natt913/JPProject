@@ -1,5 +1,8 @@
 public class MoviePlayerDriver {
 
+  /**
+   * Method to test functionality of MoviePlayer class and its methods.
+   */
   public static void testMoviePlayer() {
 
     MoviePlayer mp1 = new MoviePlayer("DBPOWER MK101", new Screen("720x480",

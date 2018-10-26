@@ -24,6 +24,7 @@ public class AudioPlayer extends Product implements MultimediaControl {
     this.audioSpecification = audioSpecification;
   }
 
+
   /**
    * Method to print that its playing media.
    */
@@ -62,4 +63,5 @@ public class AudioPlayer extends Product implements MultimediaControl {
     return "Audio Spec        : " + audioSpecification + "\n"
         +  "Type              : " + mediaType + "\n";
   }
+
 }

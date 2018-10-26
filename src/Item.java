@@ -34,7 +34,7 @@ public interface Item {
   public Date getManufacturerDate();
 
   /**
-   * A method getSerialNumber that would return an int
+   * A method getSerialNumber that would return an int.
    */
   public int getSerialNumber();
 

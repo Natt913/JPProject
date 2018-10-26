@@ -4,7 +4,7 @@
 //Required in order to use Date class
 import java.util.Date;
 
-public abstract class Product implements Item {
+public abstract class Product implements Item, Comparable<Product> {
 
   //Instance variables
   private int serialNumber;
@@ -92,6 +92,15 @@ public abstract class Product implements Item {
         +  "Serial Number     : " + serialNumber + "\n"
         +  "Date              : " + manufacturedOn + "\n"
         +  "Name              : " + name;
+  }
+
+  /**
+   * Method to compare name of the Product objects.
+   * @param obj The object to compare.
+   * @return returns an int to signify how it compared.
+   */
+  public int compareTo(Product obj) {
+    return name.compareTo(obj.getName());
   }
 
 }
