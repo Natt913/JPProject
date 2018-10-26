@@ -1,6 +1,6 @@
-//This file is an interface with many parent methods meant to be used for the Product class.
+//Nathalie Crespo
+// This file is an interface with many parent methods meant to be used for the Product class.
 //Many of the comments were used from the Oracle JP Project.
-//September 28, 2018
 
 //Required in order to use Date class
 import java.util.Date;

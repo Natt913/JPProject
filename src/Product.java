@@ -1,5 +1,7 @@
-//Many of the notes were used from the JP Project file
-//Septemeber 28, 2018
+//Nathalie Crespo
+// Many of the notes were used from the JP Project file
+//This file is an abstract class made to be subclassed by other classes.
+
 
 //Required in order to use Date class
 import java.util.Date;

@@ -1,3 +1,6 @@
+//Nathalie Crespo
+//Class to act as a template for audioplayer products.
+
 public class AudioPlayer extends Product implements MultimediaControl {
 
   //Fields for the AudioPlayer class

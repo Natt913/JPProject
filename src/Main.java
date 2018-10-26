@@ -1,5 +1,5 @@
-//Testing the Product class
-//September 28, 2018
+//Nathalie Crespo
+//Driver class to test functionality of all the classes.
 
 import java.util.ArrayList;
 import java.util.Collections;

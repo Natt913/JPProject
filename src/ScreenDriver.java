@@ -1,7 +1,10 @@
+//Nathalie Crespo
+//Driver to test functionality of Screen class
+
 public class ScreenDriver {
 
   /**
-   * Method to test functionality of Sceen class and its methods.
+   * Method to test functionality of Screen class and its methods.
    */
   public static void testScreen() {
 

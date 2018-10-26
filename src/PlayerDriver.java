@@ -1,3 +1,6 @@
+//Nathalie Crespo
+//Driver class to test functionality of MultimediaControl interface.
+
 public class PlayerDriver {
 
   /**

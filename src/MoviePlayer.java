@@ -1,3 +1,7 @@
+//Nathalie Crespo
+//Class to act as a template for any movieplayer objects that
+//Subclasses Product and implements MultimediaControl.
+
 public class MoviePlayer extends Product implements MultimediaControl {
 
   private Screen screen;

@@ -1,3 +1,6 @@
+//Nathalie Crespo
+//Driver class to test functionality of AudioPlayer class.
+
 public class AudioPlayerDriver {
 
   /**
