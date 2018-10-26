@@ -20,6 +20,7 @@ public abstract class Product implements Item, Comparable<Product> {
    */
   public Product() {
     name = "Generic";
+    //More or less specified to do this.
     serialNumber = currentProductionNumber++;
     manufacturedOn = new Date();
   }
@@ -28,6 +29,7 @@ public abstract class Product implements Item, Comparable<Product> {
    * A constructor that will take in the name of the product.
    * And set this to the field variable name.
    * Will also assign a serial number from the currentProductionNumber.
+   * More or less specified to do this.
    * The currentProductionNumber is incremented in readiness for the next instance.
    * Set manufacturedOn as the current date and time.
    * @param n It takes a String as the name for the product.
@@ -43,11 +45,12 @@ public abstract class Product implements Item, Comparable<Product> {
 
   /**
    * Set function to set the serial number equal to the production number.
+   * More or less specified to set currentProductionNumber equal to production number.
    * @param productionNumber It takes an integer to set as the production number.
    */
   public void setProductionNumber(int productionNumber) {
     currentProductionNumber = productionNumber;
-    //serialNumber = productionNumber;
+    //serialNumber = productionNumber
   }
 
   /**
@@ -68,6 +71,7 @@ public abstract class Product implements Item, Comparable<Product> {
 
   /**
    *Get function to return the date the product was manufactured.
+   * There is a bug for this but this is what is required.
    * @return Returns the date the product was manufactured on
    */
   public Date getManufacturerDate() {

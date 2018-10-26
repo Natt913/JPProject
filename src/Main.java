@@ -49,14 +49,8 @@ public class Main {
    * @param args provides arguments for the String data type.
    */
 
+
   public static void  main(String[] args) {
-
-    Widget w1 = new Widget();
-    System.out.println(w1);
-
-    Widget w2 = new Widget("Poop");
-    System.out.println(w2);
-
 
     AudioPlayerDriver.testAudioPlayer();
 
@@ -66,6 +60,7 @@ public class Main {
 
     PlayerDriver.testPlayer();
 
+    //Specified to do this for step 16.
     ArrayList studentProducts = new ArrayList<Product>();
 
     studentProducts = testCollection();

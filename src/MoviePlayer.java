@@ -2,7 +2,6 @@ public class MoviePlayer extends Product implements MultimediaControl {
 
   private Screen screen;
   private MonitorType monitorType;
-  private String name;
 
   /**
    * Default constructor with generic data for an object of MoviePlayer.
