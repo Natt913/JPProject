@@ -12,7 +12,6 @@ public class AudioPlayerDriver {
 
     AudioPlayer ap2 = new AudioPlayer("Walkman", "WAV");
 
-
     ap1.play();
     ap2.stop();
     ap1.next();

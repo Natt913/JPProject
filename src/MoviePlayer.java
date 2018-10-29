@@ -28,7 +28,6 @@ public class MoviePlayer extends Product implements MultimediaControl {
     this.monitorType = monitorType;
   }
 
-
   /**
    * Method to print that its playing movie.
    */

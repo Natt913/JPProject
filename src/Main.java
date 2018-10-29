@@ -6,7 +6,6 @@ import java.util.Collections;
 
 public class Main {
 
-
   /**
    * Method to test if added collections functionality works.
    * @return returns an ArrayList with sample products stored into it.
@@ -41,14 +40,12 @@ public class Main {
     }
   }
 
-
   /**
    * Tests all the files created from the JP Program until step 3.
    * Creates an object of Widget.
    * Prints the oobject using the toString() from the Product class.
    * @param args provides arguments for the String data type.
    */
-
 
   public static void  main(String[] args) {
 
