@@ -1,6 +1,7 @@
 //Nathalie Crespo
 //Driver class to test functionality of all the classes.
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -65,6 +66,29 @@ public class Main {
     Collections.sort(studentProducts);
 
     print(studentProducts);
+
+
+
+    AudioPlayer a1 = new AudioPlayer("iPod Mini","MP3");
+    AudioPlayer a2 = new AudioPlayer("Walkman","WAV ");
+    MoviePlayer m1 = new MoviePlayer("DBPOWER MK101",
+        new Screen(" 720x480", 40, 22), MonitorType.LCD);
+    MoviePlayer m2 = new MoviePlayer("Pyle PDV156BK",
+        new Screen("1366x768", 40, 22), MonitorType.LED);
+
+    ArrayList products = new ArrayList<Product>();
+
+    products.add(a1);
+    products.add(a2);
+    products.add(m1);
+    products.add(m2);
+
+    ProcessFiles pf = new ProcessFiles();
+    try {
+      pf.WriteFile(products);
+    } catch (Exception e) {
+      System.out.println("Stop");
+    }
 
   }
 }
