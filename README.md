@@ -1,6 +1,6 @@
 # JPProject
 ### Description
-This was a project assignmed in COP 3003 at Florida Gulf Coast University, with the intent to better my understanding of OOP (Object-Oriented Programming) and to demonstrate the proper uses of basic programming concepts.
+This was a project assigned in COP 3003 at Florida Gulf Coast University, in order to better my understanding of OOP (Object-Oriented Programming) and to demonstrate the proper uses of basic programming concepts.
 
 ##### Scenario:
 OraclProduction Ltd are specialists in producing production line manufacturing plants.
