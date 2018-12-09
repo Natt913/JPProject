@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="551.5049184686281" y="257.5">MultimediaControl</node>
+    <node x="548.5049184686281" y="1043.0">PlayerDriver</node>
+    <node x="332.11845533498774" y="279.5">MonitorType</node>
+    <node x="105.86845533498774" y="234.5">Screen</node>
+    <node x="1021.425" y="619.5">AudioPlayer</node>
+    <node x="1132.5549184686283" y="235.0">ItemType</node>
+    <node x="872.810873803616" y="190.0">Product</node>
+    <node x="325.0049184686282" y="619.5">MoviePlayer</node>
+    <node x="890.1809553349877" y="0.0">Item</node>
+    <node x="126.86845533498774" y="22.5">ScreenSpec</node>
+    <node x="35.5" y="708.5">ScreenDriver</node>
+    <node x="639.5049184686281" y="542.0">EmployeeInfo</node>
+    <node x="732.5049184686281" y="976.0">ProcessFiles</node>
+    <node x="1013.9049184686282" y="1043.0">AudioPlayerDriver</node>
+    <node x="1337.5549184686283" y="0.0">ViewFileInfo</node>
+    <node x="0.0" y="1391.0">META-INF</node>
+    <node x="244.3799184686282" y="1043.0">MoviePlayerDriver</node>
+    <node x="498.5049184686282" y="1251.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ScreenDriver" target="Screen">
+      <point x="-39.25" y="-25.5" />
+      <point x="74.75" y="522.0" />
+      <point x="145.29702676355907" y="522.0" />
+      <point x="-52.57142857142867" y="81.5" />
+    </edge>
+    <edge source="ProcessFiles" target="Product">
+      <point x="63.0" y="-92.5" />
+      <point x="921.5049184686281" y="946.0" />
+      <point x="935.0049184686281" y="946.0" />
+      <point x="935.0049184686281" y="522.0" />
+      <point x="965.310873803616" y="522.0" />
+      <point x="-18.5" y="126.0" />
+    </edge>
+    <edge source="Main" target="ProcessFiles">
+      <point x="39.076923076923094" y="-47.5" />
+      <point x="664.5818415455512" y="1191.0" />
+      <point x="921.5049184686281" y="1191.0" />
+      <point x="63.0" y="92.5" />
+    </edge>
+    <edge source="PlayerDriver" target="MoviePlayer">
+      <point x="-51.33333333333337" y="-25.5" />
+      <point x="574.1715851352949" y="956.0" />
+      <point x="586.0049184686281" y="956.0" />
+      <point x="116.0" y="114.5" />
+    </edge>
+    <edge source="MoviePlayerDriver" target="MonitorType">
+      <point x="-23.375" y="-25.5" />
+      <point x="314.5049184686282" y="522.0" />
+      <point x="375.61845533498774" y="522.0" />
+      <point x="-14.5" y="36.5" />
+    </edge>
+    <edge source="ProcessFiles" target="EmployeeInfo">
+      <point x="-63.0" y="-92.5" />
+      <point x="795.5049184686281" y="946.0" />
+      <point x="782.0049184686281" y="946.0" />
+      <point x="0.0" y="192.0" />
+    </edge>
+    <edge source="MoviePlayerDriver" target="Screen">
+      <point x="-70.125" y="-25.5" />
+      <point x="267.7549184686282" y="956.0" />
+      <point x="203.0" y="956.0" />
+      <point x="203.0" y="522.0" />
+      <point x="197.86845533498774" y="522.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="MoviePlayer" target="MultimediaControl">
+      <point x="54.375" y="-114.5" />
+      <point x="524.3799184686281" y="502.0" />
+      <point x="576.1715851352949" y="502.0" />
+      <point x="-49.33333333333337" y="58.5" />
+    </edge>
+    <edge source="AudioPlayer" target="MultimediaControl">
+      <point x="-84.39999999999998" y="-114.5" />
+      <point x="1042.525" y="502.0" />
+      <point x="674.8382518019616" y="502.0" />
+      <point x="49.33333333333337" y="58.5" />
+    </edge>
+    <edge source="MoviePlayer" target="MonitorType">
+      <point x="-18.125" y="-114.5" />
+      <point x="451.8799184686282" y="472.0" />
+      <point x="404.61845533498774" y="472.0" />
+      <point x="14.5" y="36.5" />
+    </edge>
+    <edge source="AudioPlayer" target="Product">
+      <point x="0.0" y="-114.5" />
+      <point x="1126.925" y="482.0" />
+      <point x="1076.310873803616" y="482.0" />
+      <point x="92.5" y="126.0" />
+    </edge>
+    <edge source="Screen" target="ScreenSpec">
+      <point x="0.0" y="-81.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="Main" target="MonitorType">
+      <point x="-78.15384615384619" y="-47.5" />
+      <point x="547.351072314782" y="1211.0" />
+      <point x="213.99999999999994" y="1211.0" />
+      <point x="213.99999999999994" y="512.0" />
+      <point x="346.61845533498774" y="512.0" />
+      <point x="-43.5" y="36.5" />
+    </edge>
+    <edge source="PlayerDriver" target="MultimediaControl">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="MoviePlayerDriver" target="MoviePlayer">
+      <point x="23.375" y="-25.5" />
+      <point x="361.2549184686282" y="956.0" />
+      <point x="354.0049184686282" y="956.0" />
+      <point x="-116.0" y="114.5" />
+    </edge>
+    <edge source="Main" target="AudioPlayer">
+      <point x="97.69230769230774" y="-47.5" />
+      <point x="723.197226160936" y="1221.0" />
+      <point x="1210.4049184686282" y="1221.0" />
+      <point x="1210.4049184686282" y="956.0" />
+      <point x="1169.125" y="956.0" />
+      <point x="42.19999999999993" y="114.5" />
+    </edge>
+    <edge source="Main" target="PlayerDriver">
+      <point x="0.0" y="-47.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Main" target="Screen">
+      <point x="-117.23076923076928" y="-47.5" />
+      <point x="508.2741492378589" y="1231.0" />
+      <point x="25.0" y="1231.0" />
+      <point x="25.0" y="512.0" />
+      <point x="119.01131247784485" y="512.0" />
+      <point x="-78.85714285714289" y="81.5" />
+    </edge>
+    <edge source="Main" target="Product">
+      <point x="58.61538461538464" y="-47.5" />
+      <point x="684.1203030840129" y="1201.0" />
+      <point x="995.0049184686281" y="1201.0" />
+      <point x="995.0049184686281" y="522.0" />
+      <point x="1002.310873803616" y="522.0" />
+      <point x="18.5" y="126.0" />
+    </edge>
+    <edge source="PlayerDriver" target="AudioPlayer">
+      <point x="51.33333333333337" y="-25.5" />
+      <point x="676.8382518019616" y="956.0" />
+      <point x="1042.525" y="956.0" />
+      <point x="-84.4" y="114.5" />
+    </edge>
+    <edge source="MoviePlayer" target="Screen">
+      <point x="-90.625" y="-114.5" />
+      <point x="379.3799184686282" y="492.0" />
+      <point x="250.4398839064164" y="492.0" />
+      <point x="52.57142857142867" y="81.5" />
+    </edge>
+    <edge source="AudioPlayer" target="ItemType">
+      <point x="42.19999999999999" y="-114.5" />
+      <point x="1169.125" y="522.0" />
+      <point x="1172.5549184686283" y="522.0" />
+      <point x="-40.0" y="81.0" />
+    </edge>
+    <edge source="Product" target="Item">
+      <point x="55.5" y="-126.0" />
+      <point x="1039.310873803616" y="165.0" />
+      <point x="1022.9309553349877" y="165.0" />
+      <point x="44.25" y="70.0" />
+    </edge>
+    <edge source="AudioPlayerDriver" target="AudioPlayer">
+      <point x="46.5" y="-25.5" />
+      <point x="1153.4049184686282" y="956.0" />
+      <point x="1126.925" y="956.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+    <edge source="MoviePlayer" target="Product">
+      <point x="90.625" y="-114.5" />
+      <point x="560.6299184686281" y="512.0" />
+      <point x="891.310873803616" y="512.0" />
+      <point x="-92.5" y="126.0" />
+    </edge>
+    <edge source="Main" target="MoviePlayer">
+      <point x="-39.076923076923094" y="-47.5" />
+      <point x="586.427995391705" y="1191.0" />
+      <point x="493.5049184686282" y="1191.0" />
+      <point x="493.5049184686282" y="956.0" />
+      <point x="470.0049184686282" y="956.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+    <edge source="Main" target="ScreenDriver">
+      <point x="-97.69230769230774" y="-47.5" />
+      <point x="527.8126107763205" y="1221.0" />
+      <point x="114.0" y="1221.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Main" target="MoviePlayerDriver">
+      <point x="-58.61538461538464" y="-47.5" />
+      <point x="566.8895338532436" y="1201.0" />
+      <point x="337.8799184686282" y="1201.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Main" target="AudioPlayerDriver">
+      <point x="78.15384615384619" y="-47.5" />
+      <point x="703.6587646224743" y="1211.0" />
+      <point x="1106.9049184686282" y="1211.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6497695852534562" x="341.0" y="315.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
