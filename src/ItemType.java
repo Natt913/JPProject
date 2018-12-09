@@ -1,5 +1,8 @@
-//Nathalie Crespo
-// Enum, data type with set constants and values
+/**
+ * @author Nathalie Crespo
+ * Enum, data type with set constants and values.
+ */
+
 //ItemType AUDIO = new ItemType("AU");
 
 public enum ItemType {

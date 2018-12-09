@@ -1,5 +1,7 @@
-//Nathalie Crespo
-//Interface to be used to get data on screens.
+/**
+ * @author Nathalie Crespo
+ * Interface to be used to get data on screens.
+ */
 
 public interface ScreenSpec {
 

@@ -1,6 +1,8 @@
-//Nathalie Crespo
-//Class to act as a template for any movieplayer objects that
-//Subclasses Product and implements MultimediaControl.
+/**
+ * @author Nathalie Crespo
+ * Class to act as a template for any movieplayer objects that.
+ * Subclasses Product and implements MultimediaControl.
+ */
 
 public class MoviePlayer extends Product implements MultimediaControl {
 
@@ -58,7 +60,7 @@ public class MoviePlayer extends Product implements MultimediaControl {
 
   /**
    * Method to print out product, screen, and movieplayer data.
-   * @return
+   * @return Returns The product and movie player information.
    */
   public String toString() {
     return super.toString() + screen.toString()

@@ -1,5 +1,7 @@
-//Nathalie Crespo
-//Enum for the types of monitors.
+/**
+ * @author Nathalie Crespo
+ * Enum for the types of monitors.
+ */
 
 public enum MonitorType {
 

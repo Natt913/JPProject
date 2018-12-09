@@ -1,5 +1,7 @@
-//Nathalie Crespo
-//Class to input data on screens.
+/**
+ * @author Nathalie Crespo
+ * Class to input data on screens.
+ */
 
 public class Screen implements ScreenSpec {
 

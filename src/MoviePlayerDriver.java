@@ -1,5 +1,7 @@
-//Nathalie Crespo
-//Driver class to test functionality of the MoviePlayer class.
+/**
+ * @author Nathalie Crespo
+ * Driver class to test functionality of the MoviePlayer class.
+ */
 
 public class MoviePlayerDriver {
 

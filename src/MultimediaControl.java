@@ -1,5 +1,7 @@
-//Nathalie Crespo
-//Interface to be implemented by different media classes.
+/**
+ * @author Nathalie Crespo
+ * Interface to be implemented by different media classes.
+ */
 
 public interface MultimediaControl {
 

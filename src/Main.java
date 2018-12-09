@@ -1,5 +1,7 @@
-//Nathalie Crespo
-//Driver class to test functionality of all the classes.
+/**
+ * @author Nathalie Crespo
+ * Driver class to test functionality of all the classes.
+ */
 
 import java.io.IOException;
 import java.util.ArrayList;

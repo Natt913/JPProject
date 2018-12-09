@@ -1,5 +1,7 @@
-//Nathalie Crespo
-//Driver to test functionality of Screen class
+/**
+ * @author Nathalie Crespo
+ * Driver to test functionality of Screen class.
+ */
 
 public class ScreenDriver {
 

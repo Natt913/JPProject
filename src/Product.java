@@ -1,6 +1,8 @@
-//Nathalie Crespo
-// Many of the notes were used from the JP Project file
-//This file is an abstract class made to be subclassed by other classes.
+/**
+ * @author Nathalie Crespo
+ * Many of the notes were used from the JP Project file.
+ * This file is an abstract class made to be subclassed by other classes.
+ */
 
 
 //Required in order to use Date class
@@ -15,6 +17,7 @@ public abstract class Product implements Item, Comparable<Product> {
   private String name;
 
   //Specified to be a class variable, therefore it will only be used in this class.
+  //Given error for misuse of static fields though
   private static int currentProductionNumber = 1;
 
   /**
@@ -22,7 +25,7 @@ public abstract class Product implements Item, Comparable<Product> {
    */
   public Product() {
     name = "Generic";
-    //More or less specified to do this.
+    //More or less specified to do this but gives error for misuse of static fields.
     serialNumber = currentProductionNumber++;
     manufacturedOn = new Date();
   }
