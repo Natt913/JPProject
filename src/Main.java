@@ -4,6 +4,9 @@
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Main {
 
@@ -68,28 +71,49 @@ public class Main {
     print(studentProducts);
 
 
-
-    AudioPlayer a1 = new AudioPlayer("iPod Mini","MP3");
-    AudioPlayer a2 = new AudioPlayer("Walkman","WAV ");
-    MoviePlayer m1 = new MoviePlayer("DBPOWER MK101",
-        new Screen(" 720x480", 40, 22), MonitorType.LCD);
-    MoviePlayer m2 = new MoviePlayer("Pyle PDV156BK",
-        new Screen("1366x768", 40, 22), MonitorType.LED);
-
-    ArrayList products = new ArrayList<Product>();
-
-    products.add(a1);
-    products.add(a2);
-    products.add(m1);
-    products.add(m2);
-
     ProcessFiles pf = new ProcessFiles();
     try {
-      pf.WriteFile(products);
+      pf.WriteFile(studentProducts);
     } catch (Exception e) {
       System.out.println("Stop");
     }
 
+    // int menuChoice;
+    // Scanner scan = new Scanner;
+
+    // do {
+    //   do {
+    //     System.out.println("Choose option");
+    //     System.out.println("1: Add product");
+    //     System.out.println("2: Display product");
+    //     System.out.println("3: Show statistics");
+    //     System.out.println("4: Quit");
+    //     try {
+    //       menuChoice = scan.nextInt();
+    //     } catch (Exception ex) {
+    //       System.out.println("Integer expected, please try again.");
+    //       scan.nextLine();
+    //     }
+
+    //   } while (menuChoice < 1 || menuChoice > 4);
+    //   switch (menuChoice) {
+    //     case 1:
+    //       System.out.println("Add");
+    //       studentProducts = addProduct(scan, studentProducts);
+    //       break;
+    //     case 2:
+    //       System.out.println("Display");
+    //       studentProducts.toString();
+    //       break;
+    //     case 3:
+    //       System.out.println("Statistics");
+    //       break;
+    //     case 4:
+    //       System.out.println("Quit");
+    //       break;
+    //   }
+    // }
+
+
   }
 }
-
