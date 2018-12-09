@@ -11,9 +11,10 @@ Recently they have been asked to create a production line for multimedia devices
 
 Your task is to create a flexible structure that could be used in any production line. This structure would then allow easy modification to handle different products.
 
-[JavaDoc](https://Natt913.github.io/JPProject/javadoc/index.html)
 
 ### This project includes :
+
+[JavaDoc](https://Natt913.github.io/JPProject/javadoc/index.html)
 
 #### Interfaces
 In the Java programming language, an interface is a reference type, similar to a class, that can contain only constants, method signatures, default methods, static methods, and nested types. Method bodies exist only for default methods and static methods. Interfaces cannot be instantiated—they can only be implemented by classes or extended by other interfaces. Extension is discussed later in this lesson.
@@ -30,7 +31,7 @@ Fields that have the static modifier in their declaration are called static fiel
 #### Collections
 The root interface in the collection hierarchy. A collection represents a group of objects, known as its elements. Some collections allow duplicate elements and others do not. Some are ordered and others unordered. The JDK does not provide any direct implementations of this interface: it provides implementations of more specific subinterfaces like Set and List. This interface is typically used to pass collections around and manipulate them where maximum generality is desired.
 
-# Steps Completed
+## Steps Completed
 - [x] Step 1
 - [x] Step 2
 - [x] Step 3
@@ -55,7 +56,7 @@ The root interface in the collection hierarchy. A collection represents a group 
 - [x] Step 22
 - [ ] Step 23
 
-# Credits
+## Credits
 - Oracle
 - IntelliJ
 - Profesor Vanselow (@profvanselow)
